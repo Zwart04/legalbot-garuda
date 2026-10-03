@@ -24,6 +24,14 @@
     {
       "pattern": "legalbot-garuda-app.zwart.qzz.io",
       "custom_domain": true
+    },
+    {
+      "pattern": "lawbot-app.zwart.qzz.io",
+      "custom_domain": true
+    },
+    {
+      "pattern": "legalbotgaruda-app.zwart.qzz.io",
+      "custom_domain": true
     }
   ]
 }
