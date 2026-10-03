@@ -4,3 +4,12 @@ out
 *.log
 .DS_Store
 .env*
+# Generated output and deployment credentials
+/node_modules/
+/.next/
+/out/
+/.open-next/
+/.wrangler/
+.env*
+!.env.example
+*.tsbuildinfo

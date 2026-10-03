@@ -1,0 +1,16 @@
+[
+  {
+    "source": "Zwart04/lawbot",
+    "target": "Zwart04/legalbot-garuda",
+    "path": "apps/lawbot",
+    "original_commit": "4489d60479ba1f1f8729ac197fee50b443b91167",
+    "bundle_sha256": "8f7fdd42a3ac92d5fe3cee94d2873186e5de64e247143cc7cff12e952caeada6"
+  },
+  {
+    "source": "Zwart04/legalbotgaruda",
+    "target": "Zwart04/legalbot-garuda",
+    "path": null,
+    "original_commit": "a0aec4034098682f590a8f2d3d5ab001aad46d18",
+    "bundle_sha256": "247899d8be3697b6cf9c5b9ce8d2aca69e7363540ba5bf04f6992799cb12ef06"
+  }
+]

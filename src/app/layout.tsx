@@ -1,3 +1,4 @@
+import SuiteNav from "./suite-nav";
 import type { Metadata } from 'next';
 import './globals.css';
 import { Providers } from '@/components/Providers';
@@ -20,7 +21,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="id" suppressHydrationWarning>
-      <body className="min-h-screen bg-background text-foreground antialiased">
+      <body className="min-h-screen bg-background text-foreground antialiased"><SuiteNav />
         <Providers>
           <Header />
           <main className="max-w-7xl mx-auto p-4 pt-8 pb-24">{children}</main>
