@@ -1,35 +1,9 @@
 {
-  "name": "legalbot-garuda",
-  "version": "1.0.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "npm run typecheck",
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "next": "^16.0.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "minisearch": "^7.1.0",
-    "recharts": "^2.13.0",
-    "lucide-react": "^0.460.0",
-    "clsx": "^2.1.1",
-    "tailwind-merge": "^2.5.5",
-    "docx": "^9.0.2",
-    "jspdf": "^2.5.2",
-    "file-saver": "^2.0.5"
-  },
-  "devDependencies": {
-    "@types/node": "^22.10.0",
-    "@types/react": "^19.0.0",
-    "@types/react-dom": "^19.0.0",
-    "@types/file-saver": "^2.0.7",
-    "typescript": "^5.7.0",
-    "tailwindcss": "^4.0.0",
-    "@tailwindcss/postcss": "^4.0.0",
-    "postcss": "^8.4.49"
-  }
+ "name":"zwart04-unified-rebuild",
+ "version":"2.0.0",
+ "private":true,
+ "type":"module",
+ "scripts":{"test":"node --test tests/*.test.js","build":"vite build","dev":"vite --host 127.0.0.1"},
+ "dependencies":{"react":"19.3.0","react-dom":"19.3.0","lucide-react":"^0.577.0","jszip":"^3.10.1"},
+ "devDependencies":{"vite":"^8.0.0","@vitejs/plugin-react":"^6.0.0","wrangler":"4.147.0"}
 }
